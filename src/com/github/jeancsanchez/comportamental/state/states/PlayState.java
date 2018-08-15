@@ -2,9 +2,6 @@ package com.github.jeancsanchez.comportamental.state.states;
 
 import com.github.jeancsanchez.comportamental.state.model.Audio;
 
-/**
- * Comportamental de  objeto
- */
 public abstract class PlayState {
 
     private Audio audio;
