@@ -3,6 +3,7 @@ package com.github.jeancsanchez;
 import com.github.jeancsanchez.tests.FacadeTest;
 import com.github.jeancsanchez.tests.FactoryTest;
 import com.github.jeancsanchez.tests.StrategyTest;
+import com.github.jeancsanchez.tests.TemplateMethodTest;
 
 public class Main {
 
@@ -16,6 +17,9 @@ public class Main {
 
         FactoryTest factoryTest = new FactoryTest();
         factoryTest.carroTest();
+
+        TemplateMethodTest templateMethodTest = new TemplateMethodTest();
+        templateMethodTest.playerTest();
 
 //        StateTest stateTest = new StateTest();
 //        stateTest.playerTest();
