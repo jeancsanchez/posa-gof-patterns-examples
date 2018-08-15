@@ -21,7 +21,7 @@ public class Main {
         AbsFactoryTest absFactoryTest = new AbsFactoryTest();
         absFactoryTest.carroTest();
 
-//        StateTest stateTest = new StateTest();
-//        stateTest.playerTest();
+        StateTest stateTest = new StateTest();
+        stateTest.playerTest();
     }
 }
