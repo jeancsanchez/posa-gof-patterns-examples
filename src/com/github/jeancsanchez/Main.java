@@ -1,7 +1,7 @@
 package com.github.jeancsanchez;
 
 import com.github.jeancsanchez.tests.FacadeTest;
-import com.github.jeancsanchez.tests.StateTest;
+import com.github.jeancsanchez.tests.StrategyTest;
 
 public class Main {
 
@@ -10,7 +10,10 @@ public class Main {
         facadeTest.videoGameTest();
         facadeTest.modaTest();
 
-        StateTest stateTest = new StateTest();
-        stateTest.playerTest();
+        StrategyTest strategyTest = new StrategyTest();
+        strategyTest.guerraTest();
+
+//        StateTest stateTest = new StateTest();
+//        stateTest.playerTest();
     }
 }
