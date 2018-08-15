@@ -13,7 +13,7 @@ public class Playing extends PlayState {
 
     @Override
     public PlayState pause() {
-        System.out.println("◼ Pausando audio: " + getAudio().getTitle());
+        System.out.println("◼ Pausando audio");
         return new Paused();
     }
 

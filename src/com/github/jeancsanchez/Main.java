@@ -5,6 +5,7 @@ import com.github.jeancsanchez.tests.*;
 public class Main {
 
     public static void main(String args[]) {
+
         FacadeTest facadeTest = new FacadeTest();
         facadeTest.videoGameTest();
         facadeTest.modaTest();
@@ -23,5 +24,8 @@ public class Main {
 
         StateTest stateTest = new StateTest();
         stateTest.playerTest();
+
+        DecoratorTest decoratorTest = new DecoratorTest();
+        decoratorTest.playerTest();
     }
 }
