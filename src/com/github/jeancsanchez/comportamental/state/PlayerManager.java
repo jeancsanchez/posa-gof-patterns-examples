@@ -1,8 +1,8 @@
-package comportamental.state;
+package com.github.jeancsanchez.comportamental.state;
 
-import comportamental.state.model.Audio;
-import comportamental.state.states.Paused;
-import comportamental.state.states.PlayState;
+import com.github.jeancsanchez.comportamental.state.model.Audio;
+import com.github.jeancsanchez.comportamental.state.states.Paused;
+import com.github.jeancsanchez.comportamental.state.states.PlayState;
 
 public class PlayerManager {
 

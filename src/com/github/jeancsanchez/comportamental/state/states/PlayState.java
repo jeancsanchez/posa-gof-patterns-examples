@@ -1,6 +1,6 @@
-package comportamental.state.states;
+package com.github.jeancsanchez.comportamental.state.states;
 
-import comportamental.state.model.Audio;
+import com.github.jeancsanchez.comportamental.state.model.Audio;
 
 /**
  * Comportamental de  objeto

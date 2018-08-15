@@ -1,4 +1,4 @@
-package comportamental.state.model;
+package com.github.jeancsanchez.comportamental.state.model;
 
 public class Audio {
 
