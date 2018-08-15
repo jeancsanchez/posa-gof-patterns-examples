@@ -1,6 +1,9 @@
+import org.junit.Test;
 
-
-@Test
 public class PlayerManagerTest {
 
+    @Test
+    public void test() {
+
+    }
 }
