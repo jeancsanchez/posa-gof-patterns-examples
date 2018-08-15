@@ -1,5 +1,6 @@
 package com.github.jeancsanchez.tests;
 
+import com.github.jeancsanchez.estrutural.facade.moda.ModaFacade;
 import com.github.jeancsanchez.estrutural.facade.videogame.VideoGameFacade;
 
 /**
@@ -22,5 +23,13 @@ public class FacadeTest {
         fachada.renderizarImagem("logo.png");
         fachada.reproduzirAudio("entrada.mp3");
         fachada.lerInput();
+    }
+
+    public void modaTest() {
+        System.out.println("-- Moda --");
+        ModaFacade fachada = new ModaFacade();
+        fachada.decidirVestimenta(100);
+        fachada.decidirVestimenta(30);
+        fachada.decidirVestimenta(5);
     }
 }
