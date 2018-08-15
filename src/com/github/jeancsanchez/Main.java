@@ -1,9 +1,6 @@
 package com.github.jeancsanchez;
 
-import com.github.jeancsanchez.tests.FacadeTest;
-import com.github.jeancsanchez.tests.FactoryTest;
-import com.github.jeancsanchez.tests.StrategyTest;
-import com.github.jeancsanchez.tests.TemplateMethodTest;
+import com.github.jeancsanchez.tests.*;
 
 public class Main {
 
@@ -20,6 +17,9 @@ public class Main {
 
         TemplateMethodTest templateMethodTest = new TemplateMethodTest();
         templateMethodTest.playerTest();
+
+        AbsFactoryTest absFactoryTest = new AbsFactoryTest();
+        absFactoryTest.carroTest();
 
 //        StateTest stateTest = new StateTest();
 //        stateTest.playerTest();
