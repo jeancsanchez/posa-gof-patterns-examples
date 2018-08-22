@@ -27,5 +27,8 @@ public class Main {
 
         DecoratorTest decoratorTest = new DecoratorTest();
         decoratorTest.playerTest();
+
+        CompositeTest compositeTest = new CompositeTest();
+        compositeTest.arquivosTest();
     }
 }
