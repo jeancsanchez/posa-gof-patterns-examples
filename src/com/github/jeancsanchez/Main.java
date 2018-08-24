@@ -18,6 +18,7 @@ public class Main {
 
         TemplateMethodTest templateMethodTest = new TemplateMethodTest();
         templateMethodTest.playerTest();
+        templateMethodTest.stringTest();
 
         AbsFactoryTest absFactoryTest = new AbsFactoryTest();
         absFactoryTest.carroTest();

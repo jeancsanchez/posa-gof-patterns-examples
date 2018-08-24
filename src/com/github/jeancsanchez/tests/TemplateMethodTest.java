@@ -4,6 +4,7 @@ package com.github.jeancsanchez.tests;
 import com.github.jeancsanchez.comportamental.templatemethod.player.AudioMp3;
 import com.github.jeancsanchez.comportamental.templatemethod.player.ModoReproducao;
 import com.github.jeancsanchez.comportamental.templatemethod.player.Playlist;
+import com.github.jeancsanchez.comportamental.templatemethod.string.*;
 
 /**
  * Comportamental de classe.
@@ -25,5 +26,24 @@ public class TemplateMethodTest {
 
         playlist.setModoReproducao(ModoReproducao.POR_ESTRELA);
         playlist.mostraPlaylist();
+    }
+
+
+    public void stringTest() {
+        System.out.println("-- String --");
+
+        String helloWorld = "Hello world";
+
+        StringTemplate stringTemplate = new StringLowerCase();
+        stringTemplate.exibir(helloWorld);
+
+        stringTemplate = new StringUpperCase();
+        stringTemplate.exibir(helloWorld);
+
+        stringTemplate = new StringDouble();
+        stringTemplate.exibir(helloWorld);
+
+        stringTemplate = new StringInverted();
+        stringTemplate.exibir(helloWorld);
     }
 }
