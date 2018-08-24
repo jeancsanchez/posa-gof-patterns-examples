@@ -1,4 +1,4 @@
-package com.github.jeancsanchez.estrutural.composite;
+package com.github.jeancsanchez.estrutural.composite.arquivos;
 
 public class ArquivoComponent {
 

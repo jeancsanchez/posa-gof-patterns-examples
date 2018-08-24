@@ -1,9 +1,9 @@
 package com.github.jeancsanchez.tests;
 
 
-import com.github.jeancsanchez.estrutural.composite.ArquivoComponent;
-import com.github.jeancsanchez.estrutural.composite.ArquivoComposite;
-import com.github.jeancsanchez.estrutural.composite.ArquivoVideo;
+import com.github.jeancsanchez.estrutural.composite.arquivos.ArquivoComponent;
+import com.github.jeancsanchez.estrutural.composite.arquivos.ArquivoComposite;
+import com.github.jeancsanchez.estrutural.composite.arquivos.ArquivoVideo;
 
 /**
  * Estrutural de  objeto
