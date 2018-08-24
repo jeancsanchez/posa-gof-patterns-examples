@@ -4,6 +4,10 @@ package com.github.jeancsanchez.tests;
 import com.github.jeancsanchez.estrutural.composite.arquivos.ArquivoComponent;
 import com.github.jeancsanchez.estrutural.composite.arquivos.ArquivoComposite;
 import com.github.jeancsanchez.estrutural.composite.arquivos.ArquivoVideo;
+import com.github.jeancsanchez.estrutural.composite.congresso.Congresso;
+import com.github.jeancsanchez.estrutural.composite.congresso.Individuo;
+import com.github.jeancsanchez.estrutural.composite.congresso.Instituicao;
+import com.github.jeancsanchez.estrutural.composite.congresso.Participante;
 
 /**
  * Estrutural de  objeto
@@ -45,6 +49,51 @@ public class CompositeTest {
             System.out.println("Removendo arquivos: ");
             minhaPasta.remover(video1.getNomeDoArquivo());
             minhaPasta.printNomeDoArquivo();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public void congressoTest() {
+        System.out.println("-- Congresso --");
+
+        Participante congresso = new Congresso();
+        congresso.setNome("Internacional");
+
+        Participante individuo = new Individuo();
+        individuo.setNome("Jean");
+
+        Participante instituicao = new Instituicao();
+        instituicao.setNome("M. Dias Branco");
+
+
+        try {
+            individuo.adicionar(instituicao);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+
+        try {
+            congresso.adicionar(individuo);
+            congresso.adicionar(instituicao);
+
+            System.out.println("Participantes");
+            congresso.printNomeDoParticipante();
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+
+        try {
+            System.out.println("Pesquisando participantes: ");
+            congresso.getParticipante(individuo).printNomeDoParticipante();
+
+            System.out.println("Removendo instituição: ");
+            congresso.remover(instituicao);
+            congresso.printNomeDoParticipante();
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -31,5 +31,6 @@ public class Main {
 
         CompositeTest compositeTest = new CompositeTest();
         compositeTest.arquivosTest();
+        compositeTest.congressoTest();
     }
 }
