@@ -1,10 +1,10 @@
 package com.github.jeancsanchez.tests;
 
 
-import com.github.jeancsanchez.criacional.absfactory.CarroPopular;
-import com.github.jeancsanchez.criacional.absfactory.CarroSedan;
-import com.github.jeancsanchez.criacional.absfactory.FabricaDeCarro;
-import com.github.jeancsanchez.criacional.absfactory.FabricaFiat;
+import com.github.jeancsanchez.criacional.absfactory.carro.CarroPopular;
+import com.github.jeancsanchez.criacional.absfactory.carro.CarroSedan;
+import com.github.jeancsanchez.criacional.absfactory.carro.FabricaDeCarro;
+import com.github.jeancsanchez.criacional.absfactory.carro.FabricaFiat;
 
 /**
  * Criacional de objetos.
@@ -23,5 +23,11 @@ public class AbsFactoryTest {
         sedan.exibirInfoSedan();
         CarroPopular popular = factory.criarCarroPopular();
         popular.exibirInfoPopular();
+    }
+
+
+    public void pizzariaTest() {
+        System.out.println("-- Pizzria --");
+
     }
 }

@@ -1,4 +1,4 @@
-package com.github.jeancsanchez.criacional.absfactory;
+package com.github.jeancsanchez.criacional.absfactory.carro;
 
 public interface FabricaDeCarro {
 
