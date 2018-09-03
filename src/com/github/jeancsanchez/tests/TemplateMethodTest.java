@@ -8,6 +8,7 @@ import com.github.jeancsanchez.comportamental.templatemethod.string.*;
 
 /**
  * Comportamental de classe.
+ * Define um esqueleto de um algoritmo, deixando métodos para serem preenchidos pelas subclasses.
  */
 public class TemplateMethodTest {
 

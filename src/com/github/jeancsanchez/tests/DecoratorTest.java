@@ -7,6 +7,7 @@ import com.github.jeancsanchez.estrutural.decorator.carro.CrossFox;
 
 /**
  * Estrutural de  objeto
+ * Anexa responsabilidades adicionais a um objeto dinamicamente.
  */
 public class DecoratorTest {
 

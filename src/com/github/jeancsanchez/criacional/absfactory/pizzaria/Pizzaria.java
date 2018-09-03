@@ -1,11 +1,20 @@
 package com.github.jeancsanchez.criacional.absfactory.pizzaria;
 
-import com.github.jeancsanchez.criacional.absfactory.pizzaria.pizza.PizzaSegQuaSex;
-import com.github.jeancsanchez.criacional.absfactory.pizzaria.pizza.PizzaTerQuiSab;
+import com.github.jeancsanchez.criacional.absfactory.pizzaria.pizza.Pizza;
 
-public interface Pizzaria {
+public abstract class Pizzaria {
 
-    PizzaSegQuaSex fazerPizzaDeSegQuaSex() throws Exception;
+    abstract boolean diaDeTrabalho();
 
-    PizzaTerQuiSab fazerPizzaDeTerQuiSab() throws Exception;
+    abstract Pizza mandarPizza();
+
+    public Pizza fazerPizza() throws Exception {
+        if (diaDeTrabalho()) {
+            Pizza pizza = mandarPizza();
+            pizza.exibirIngredientes();
+            return mandarPizza();
+        }
+
+        throw new Exception("Esse pizzaiolo não faz pizzas nesse dia");
+    }
 }

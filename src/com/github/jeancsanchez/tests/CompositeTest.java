@@ -11,6 +11,7 @@ import com.github.jeancsanchez.estrutural.composite.congresso.Participante;
 
 /**
  * Estrutural de  objeto
+ * Representa hierarquias em estrutura de árvores.
  */
 public class CompositeTest {
 

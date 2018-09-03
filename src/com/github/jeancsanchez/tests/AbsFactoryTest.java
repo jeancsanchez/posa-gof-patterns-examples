@@ -11,6 +11,7 @@ import com.github.jeancsanchez.criacional.absfactory.pizzaria.Pizzaria;
 
 /**
  * Criacional de objetos.
+ * Define uma interface para criar famílias de objetos sem especificar suas classes concretas.
  */
 public class AbsFactoryTest {
 
@@ -32,18 +33,17 @@ public class AbsFactoryTest {
     public void pizzariaTest() {
         System.out.println("-- Pizzaria --");
 
-
-        Pizzaria pizzaiolo1 = new PizzaioloSegQuaSex();
+        Pizzaria pizzaria = new PizzaioloSegQuaSex("03/09/2018");
         try {
-            pizzaiolo1.fazerPizzaDeSegQuaSex();
+            pizzaria.fazerPizza();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
 
 
-        Pizzaria pizzaiolo2 = new PizzaioloTerQuiSab();
+        pizzaria = new PizzaioloTerQuiSab("03/09/2018");
         try {
-            pizzaiolo2.fazerPizzaDeSegQuaSex();
+            pizzaria.fazerPizza();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

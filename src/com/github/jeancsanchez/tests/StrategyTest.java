@@ -5,6 +5,8 @@ import com.github.jeancsanchez.comportamental.strategy.Guerra;
 
 /**
  * Comportamental de  objeto
+ * Define família de algoritmos.
+ * Permite que algoritmos variem independentemente entre clientes que os utilizam.
  */
 public class StrategyTest {
 

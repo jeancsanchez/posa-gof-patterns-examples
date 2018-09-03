@@ -6,6 +6,7 @@ import com.github.jeancsanchez.comportamental.state.model.Audio;
 
 /**
  * Comportamental de  objeto
+ * Permite que o objeto mude de comportamento ao alterar seu estado.
  */
 public class StateTest {
 

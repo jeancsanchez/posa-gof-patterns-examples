@@ -4,7 +4,8 @@ package com.github.jeancsanchez.tests;
 import com.github.jeancsanchez.comportamental.strategy.Guerra;
 
 /**
- * Estrutural de  objeto
+ * Estrutural de  objeto.
+ * Desacopla uma abstracao de sua implementacao.
  */
 public class BridgeTest {
 

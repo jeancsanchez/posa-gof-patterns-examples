@@ -8,6 +8,8 @@ import com.github.jeancsanchez.criacional.factory.carro.model.Carro;
 
 /**
  * Criacional de classes.
+ * Define uma interface para criar um objeto, mas deixa que subclasses decidam que classe instanciar.
+ * Permite que uma classe delegue a responsabilidade de instanciação às subclasses.
  */
 public class FactoryTest {
 
