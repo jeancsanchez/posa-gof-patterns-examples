@@ -1,7 +1,7 @@
 package com.github.jeancsanchez.tests;
 
 
-import com.github.jeancsanchez.comportamental.strategy.Guerra;
+import com.github.jeancsanchez.estrutural.bridge.*;
 
 /**
  * Estrutural de  objeto.
@@ -13,8 +13,12 @@ public class BridgeTest {
         System.out.println("::::: Bridge testes :::::");
     }
 
-    public void guerraTest() {
-        System.out.println("-- Guerra --");
-        Guerra guerra = new Guerra();
+    public void janelasTest() {
+        System.out.println("-- Janelas --");
+        JanelaAbstrata janela = new JanelaDialogo(new JanelaWindows());
+        janela.desenhar();
+
+        janela = new JanelaAviso(new JanelaLinux());
+        janela.desenhar();
     }
 }

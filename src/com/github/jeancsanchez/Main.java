@@ -33,5 +33,8 @@ public class Main {
         CompositeTest compositeTest = new CompositeTest();
         compositeTest.arquivosTest();
         compositeTest.congressoTest();
+
+        BridgeTest bridgeTest = new BridgeTest();
+        bridgeTest.janelasTest();
     }
 }
