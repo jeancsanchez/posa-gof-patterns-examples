@@ -45,5 +45,8 @@ public class Main {
 
         ProxyTest proxyTest = new ProxyTest();
         proxyTest.bancoDeDadosTest();
+
+        AdapterTest adapterTest = new AdapterTest();
+        adapterTest.imagemTest();
     }
 }
