@@ -36,5 +36,8 @@ public class Main {
 
         BridgeTest bridgeTest = new BridgeTest();
         bridgeTest.janelasTest();
+
+        MediatorTest mediatorTest = new MediatorTest();
+        mediatorTest.mensagensTest();
     }
 }
