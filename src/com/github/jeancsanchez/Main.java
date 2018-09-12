@@ -39,5 +39,8 @@ public class Main {
 
         MediatorTest mediatorTest = new MediatorTest();
         mediatorTest.mensagensTest();
+
+        ChainTest chainTest = new ChainTest();
+        chainTest.bancoTest();
     }
 }
