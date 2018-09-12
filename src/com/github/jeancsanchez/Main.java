@@ -42,5 +42,8 @@ public class Main {
 
         ChainTest chainTest = new ChainTest();
         chainTest.bancoTest();
+
+        ProxyTest proxyTest = new ProxyTest();
+        proxyTest.bancoDeDadosTest();
     }
 }
