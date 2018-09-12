@@ -48,5 +48,8 @@ public class Main {
 
         AdapterTest adapterTest = new AdapterTest();
         adapterTest.imagemTest();
+
+        BuilderTest builderTest = new BuilderTest();
+        builderTest.carrosTest();
     }
 }
